@@ -1,0 +1,18 @@
+.game-element {
+	width: 12rem;
+	height: 12rem;
+	margin: 0 1rem;
+	position: relative;
+	z-index: 99;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.game-element:hover {
+	transform: scale(1.2);
+}
+
+.game-element:nth-child(2) {
+	height: 11.3rem;
+	width: 11.3rem;
+}
