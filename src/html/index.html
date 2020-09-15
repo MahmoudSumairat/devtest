@@ -12,51 +12,65 @@
 	<body>
 		<section class="main-page">
 			<div
+				id="computerOptions"
 				class="main-page__game-elements main-page__game-elements--computer disabled"
 			>
 				<img
+					data-value="rock"
 					class="game-element"
 					src="../../public/assets/images/90-900256_transparent-rock-paper-scissors-clipart-rock-paper-scissors.png"
 					alt="rock"
 				/>
 				<img
+					data-value="paper"
 					class="game-element"
 					src="../../public/assets/images/109-1094264_rock-paper-scissors-png.png"
 					alt="paper"
 				/>
 				<img
+					data-value="scissor"
 					class="game-element"
 					src="../../public/assets/images/109-1094404_rock-paper-scissors-png.png"
 					alt="scissor"
 				/>
 			</div>
-			<div class="main-page__welcome">
+			<div id="welcomeContainer" class="main-page__welcome">
 				<h1 class="main-page__heading">
 					welcome to rock, paper, scissor game!
 				</h1>
-				<button class="main-page__get-started" type="button">
+				<button
+					id="getStartedButton"
+					class="main-page__get-started"
+					type="button"
+				>
 					get started
 				</button>
 			</div>
 			<div
+				id="userOptions"
 				class="main-page__game-elements main-page__game-elements--user disabled"
 			>
 				<img
+					data-value="rock"
 					class="game-element"
 					src="../../public/assets/images/90-900256_transparent-rock-paper-scissors-clipart-rock-paper-scissors.png"
 					alt="rock"
 				/>
 				<img
+					data-value="paper"
 					class="game-element"
 					src="../../public/assets/images/109-1094264_rock-paper-scissors-png.png"
 					alt="paper"
 				/>
 				<img
+					data-value="scissor"
 					class="game-element"
 					src="../../public/assets/images/109-1094404_rock-paper-scissors-png.png"
 					alt="scissor"
 				/>
 			</div>
 		</section>
+
+		<script src="../js/main.js"></script>
 	</body>
 </html>
