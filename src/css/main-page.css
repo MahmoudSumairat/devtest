@@ -1,5 +1,5 @@
 .main-page {
-	background-color: rgb(247, 247, 247);
+	background-color: #f7f7f7;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -12,4 +12,35 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
+}
+
+.main-page__welcome {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.main-page__heading {
+	font-size: 4rem;
+	font-weight: lighter;
+	text-transform: capitalize;
+	color: #434343;
+}
+
+.main-page__get-started {
+	background: none;
+	border: none;
+	padding: 1rem 4rem;
+	text-transform: capitalize;
+	font-size: 2rem;
+	border-radius: 0.5rem;
+	background-color: #434343;
+	color: #f7f7f7;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.main-page__get-started:hover {
+	background-color: #676767;
 }
