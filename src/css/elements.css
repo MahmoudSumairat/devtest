@@ -4,12 +4,7 @@
 	margin: 0 1rem;
 	position: relative;
 	z-index: 99;
-	cursor: pointer;
 	transition: all 0.3s ease-in-out;
-}
-
-.game-element:hover {
-	transform: scale(1.2);
 }
 
 .game-element:nth-child(2) {
@@ -20,4 +15,12 @@
 .disabled > img {
 	opacity: 0.5;
 	cursor: default;
+}
+
+.main-page__game-elements--user > .game-element {
+	cursor: pointer;
+}
+
+.main-page__game-elements--user > .game-element:hover {
+	transform: scale(1.2);
 }
